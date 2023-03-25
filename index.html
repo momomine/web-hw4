@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		.container { margin: 0 auto; width: 1024px; }
+		.large_font {font-size: 24px; }
+		td { padding: 10px; text-align: center; }
+		.r_corner { border-radius: 300px; width:300px; height: 300px; }
+		.r_corner2 { border-radius: 30px; width:500px; height: 300px; }
+		.r_corner3 { border-radius: 400px; width:400px; height: 400px; }
+		.r_corner4 { border-radius: 100px; width:1000px; height: 500px; }
+		.r_img:hover {opacity: 0.5; rotate: 45deg}
+		.r_img2:hover {opacity: 0.5; rotate: 15deg}
+		.r_word:hover {background: black;color: white;}
+		.navbar {
+				overflow: hidden;
+  				background-color: #333;
+  				position: fixed;
+  				top: 0;
+  				width: 100%;
+				}
+
+		.navbar a {
+  					float: left;
+  					display: block;
+  					color: #f2f2f2;
+  					text-align: center;
+  					padding: 14px 16px;
+  					text-decoration: none;
+  					font-size: 17px;
+					}
+
+		.navbar a:hover {
+  						background: #ddd;
+  						color: black;
+						}
+
+		.main {
+  				padding: 16px;
+  				margin-top: 30px;
+  				height: 1500px; /* Used in this example to enable scrolling */
+				}
+	</style>	
+</head>
+<body>
+<div class="navbar">
+  <a href="#home">首頁</a>
+  <a href="#s0">台中市景點地圖</a>
+  <a href="#s1">台中國家歌劇院</a>
+  <a href="#s2">臺中州廳</a>
+  <a href="#s3">審計新村</a>
+</div>
+<br>
+<br>
+<div class="container">
+	<table>
+		<tr>
+			<td id="home" class="large_font r_word" colspan="2">台中市景點推薦</td>
+		</tr>
+		<tr>
+			<td colspan="2"><img class="r_corner4 r_img2" src="image/00taichung.jpeg" width="1024px" height="300px"></td>
+		</tr>
+		<tr>
+			<td colspan="2" id="s0">
+				<p class="large_font r_word .main">台中市景點地圖</p>
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1aSiYUZaTokfAZWc7FuMu3CsV0eDCGEg&ehbc=2E312F" width="640" height="480"></iframe>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<p class="large_font r_word .main">臺中市</p>
+				<p>臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，
+				也是中臺灣唯一的直轄市。周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹
+				縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，東北以中央山脈
+			    和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="r_corner r_img" src="image/01.jpeg">
+			</td>
+			<td id="s1">
+				<p class="large_font r_word">台中國家歌劇院</p>
+				台中國家歌劇院位於台中市西屯區，是極具特色的大型公有展演空間，由
+				日本建築師伊東豊雄設計，以人類最原始的「洞窟」、「地穴」的概念設計成
+				世界獨一無二的美聲涵洞曲牆建築，歷時五年時間完成、耗資43.6億元，
+				終在2014年11月23日落成啟用，內部規劃有大劇院、中劇院及小型實驗劇
+				場，共可容納約三千餘人。<br>
+
+				圖：台中國家歌劇院白天景色<br><br>
+
+				所在位置：台中市西屯區惠來路二段101號
+
+
+			</td>
+		</tr>
+		<tr>
+			<td id="s2"><p class="large_font r_word">臺中州廳</p>
+			臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦
+			公，由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱
+			呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。<br>
+			
+			圖：臺中州廳<br><br>
+
+			所在位置：台中市西區民權路99號
+			</td>
+			<td>
+				<img class="r_corner2 r_img2" src="image/02.jpeg">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="r_corner3 r_img" src="image/03.jpeg">
+			</td>
+			<td id="s3">
+				<p class="large_font r_word">審計新村</p>
+				審計新村位於台中市西區，原為臺灣省政府審計處員工宿舍，在凍省之後
+				成了閒置空間荒廢多年，近年配合台中市政府勞工局「摘星青年、築夢台中」
+				創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。<br>
+
+				圖：審計新村<br><br>
+
+				所在位置：台中市西區民生路368巷<br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<br>
+				<font style="background: black; color: white;">
+				靜宜大學 資料科學暨大數據分析與應用學系 王瑞鴻製作 2023
+				<br>
+			</td>
+		</tr>
+	</table>
+
+
+</body>
+</html>
